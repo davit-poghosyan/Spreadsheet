@@ -27,11 +27,6 @@ bool operator==(Day& first, Day& second)
 {
 	first.operator==(second);
 }
-
-bool operator!=(Day& first, Day& second)
-{
-	return !(first == second);
-}
 */
 
 void Month::setMonth(int num)
