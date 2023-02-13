@@ -1,4 +1,3 @@
-//Date classi hamar erku dzev operator== em grel es dzevnel chi ashxatum
 #include "Date.h"
 #include "Cell.h"
 #include <iostream>
@@ -63,7 +62,7 @@ void Test::_toDouble() const
 	}
 }
 
-void Test::_toDate() /*const*/
+void Test::_toDate() 
 {
 	Cell obj;
 	obj.setValue("4.5.2020");
@@ -118,39 +117,3 @@ int main()
 	obj._reset();
 
 }
-
-/*
-void Cell::setValue(const std::string& str)
-{
-	m_str = str;		
-}
-
-std::string Cell::getValue() const
-{
-//	return '0';
-}
-
-void testToInt()
-{ 
-	Cell obj;
-	obj.setValue("5");
-
-	int num = 0;
-	std::string str = ;
-
-	if ()
-	
-	if (obj.getValue() != ) {
-		std::cout << "pass";
-	} else {
-		std::cout << "fail";
-	} 
-}
-
-int main()
-{
-	std::string str = "455";
-	testToInt();
-}
-
-*/
