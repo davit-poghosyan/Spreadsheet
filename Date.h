@@ -49,5 +49,4 @@ class Date
 bool operator==(const Date& firts, const Date& second);
 #include <iostream>
 #include "impl_Date.h"
-//#include <iostream>//main um ka
 #endif
