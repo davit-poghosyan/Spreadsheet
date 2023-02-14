@@ -15,6 +15,7 @@ class Spreadsheet
 		Spreadsheet();
 		Spreadsheet(int row, int column);
 		Spreadsheet& operator=(const Spreadsheet& rhs);
+		~Spreadsheet();
 	public:
 		void setCellAt(int row, int column, const Cell& cl);
 		void setCellAt(int row, int column, const std::string& cl);
