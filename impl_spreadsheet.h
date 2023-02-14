@@ -46,6 +46,15 @@ Spreadsheet& Spreadsheet::operator=(const Spreadsheet& rhs)
 	return *this;
 }
 
+Spreadsheet::~Spreadsheet()
+{
+	for (int i = 0; i < m_row; ++i) {
+		delete[] m_cells[i];
+	}
+	delete[] m_cells;
+	m_cells = nullptr;
+}
+
 void Spreadsheet::setCellAt(int row, int column, const Cell& cl)
 {
 	m_cells[row][column] = cl;
