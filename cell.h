@@ -31,6 +31,6 @@ class Cell
 //bool operator==(const Cell& first, const Cell& second);
 
 
-#include "impl_Cell.h"
+#include "implCell.h"
 #endif
 
