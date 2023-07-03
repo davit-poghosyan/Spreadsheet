@@ -1,4 +1,4 @@
-#include "Cell.h"
+#include "cell.h"
 #include <iostream>
 #include <string>
 #ifndef SPREADSHEET_H
