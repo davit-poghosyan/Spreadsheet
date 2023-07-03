@@ -1,4 +1,4 @@
-#include "Spreadsheet.h"
+#include "spreadsheet.h"
 
 class SpreadTest
 {	
