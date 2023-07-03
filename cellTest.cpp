@@ -1,5 +1,5 @@
-#include "Date.h"
-#include "Cell.h"
+#include "date.h"
+#include "cell.h"
 #include <iostream>
 #include <string>
 
